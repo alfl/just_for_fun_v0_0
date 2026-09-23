@@ -1,3 +1,12 @@
+#include "Bitling.h"
+
+LEDConfig lcfg = {
+  A1,
+  1000,
+};
+
+LEDController lc(lcfg);
+
 int BITLING_0 = A1;
 int BITLING_0_DS = 0;
 int BITLING_0_SENSOR_PIN = A2;
